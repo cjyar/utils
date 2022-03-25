@@ -1,0 +1,4 @@
+#!/bin/sh
+# See https://superuser.com/questions/1075404/how-can-i-restart-gpg-agent/1150399
+
+gpg-connect-agent reloadagent /bye
